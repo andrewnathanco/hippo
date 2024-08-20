@@ -27,7 +27,7 @@ function HippoCard(props: { hippo: Hippo }) {
           }
 
           navigator.share({
-            url: `/hippo/${hippo().slug}`,
+            url: `${import.meta.env.VITE_BASE_URL}/hippo/${hippo().slug}`,
           });
         }}
       >
