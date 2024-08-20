@@ -5,8 +5,8 @@ function HippoCard(props: { hippo: Hippo }) {
   const hippo = () => props.hippo;
 
   return (
-    <div class="flex flex-col space-y-2">
-      <a href={`/hippo?hippo=${hippo().slug}`} class="">
+    <div class="flex flex-col space-y-1">
+      <a href={`/hippo/${hippo().slug}`} class="">
         <img
           class="rounded-xl border-4 border-matterhorn-900"
           src={hippo().image}
@@ -19,7 +19,7 @@ function HippoCard(props: { hippo: Hippo }) {
           if (!navigator.share) {
             try {
               navigator.clipboard.writeText(
-                `${import.meta.env.VITE_BASE_URL}/hippo?hippo=${hippo().slug}`
+                `${import.meta.env.VITE_BASE_URL}/hippo/${hippo().slug}`
               );
             } catch {}
 
@@ -27,7 +27,7 @@ function HippoCard(props: { hippo: Hippo }) {
           }
 
           navigator.share({
-            url: `${import.meta.env.VITE_BASE_URL}/hippo?hippo=${hippo().slug}`,
+            url: `/hippo/${hippo().slug}`,
           });
         }}
       >
@@ -45,7 +45,7 @@ export default function Choose() {
   return (
     <main class="p-4 justify-center items-center flex flex-col">
       <div class="p-4 w-96 flex flex-col items-center space-y-4">
-        <ul class="flex flex-col space-y-2">
+        <ul class="flex flex-col space-y-4">
           {hippos.map((hippo) => {
             return <HippoCard hippo={hippo} />;
           })}
