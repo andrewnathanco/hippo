@@ -11,7 +11,11 @@ ARG VERSION
 ENV VITE_VERSION=${VERSION}
 
 ARG BASE_PATH
+ENV BASE_PATH=${BASE_PATH}
+ENV VITE_BASE_PATH=${BASE_PATH}
+
 ARG BASE_URL
+ENV VITE_BASE_URL=${BASE_URL}
 
 RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install
 RUN pnpm run build
