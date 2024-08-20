@@ -1,0 +1,14 @@
+{
+  "record": {
+    "hosts": [
+      "localhost",
+      "127.0.0.1",
+      "10.0.0.42"
+    ],
+    "hash": {
+      "key": "f0b030afd0a850f9430c9b1314582cc404a85099a1cac0dda73b24e83c62b1c7",
+      "cert": "42e42bbccca618539b57ed587c7704dcb4f90c3b4acd2456a0c1f14283d5d2da"
+    }
+  },
+  "configFilePath": "/Users/andrew/Documents/Dev/Projects/andrewnathanco/github/hippo/code/certs/config.json"
+}

@@ -32,6 +32,6 @@ jobs:
           push: true
           build-args: |
             VERSION=${{ github.ref_name }}
-            BASE_PATH=/
+            BASE_URL=https://sendahippo.com
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
