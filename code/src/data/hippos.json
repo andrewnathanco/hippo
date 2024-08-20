@@ -2,13 +2,8 @@
   {
     "name": "heart",
     "slug": "heart",
-    "image": "hippos/heart.png",
+    "image": "/hippos/heart.png",
+    "artist": "https://www.instagram.com/andrewnathanco/",
     "uuid": "d4f3abfe-ad80-49ea-8b71-435259112a2a"
-  },
-  {
-    "name": "thought",
-    "slug": "thought",
-    "image": "hippos/thought.png",
-    "uuid": "db14ee26-b4e0-4f6f-afd0-a983fc4e3917"
   }
 ]
