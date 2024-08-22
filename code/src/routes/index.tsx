@@ -14,7 +14,7 @@ export default function Index() {
           you're thinking of them
         </div>
         <img src="/screenshot.svg" class="h-128"></img>
-        <div class="flex flex-col space-y-2 w-full">
+        <div class="flex flex-col space-y-1 w-full">
           <a
             href="https://forms.gle/Y3cLNWGu2MoaYR1z5"
             class="p-3 bg-rose-500 flex justify-center text-almond-50 rounded-xl text-xl w-full cursor-pointer h-fit"

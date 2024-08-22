@@ -5,5 +5,12 @@
     "image": "/hippos/heart.png",
     "artist": "https://www.instagram.com/andrewnathanco/",
     "uuid": "d4f3abfe-ad80-49ea-8b71-435259112a2a"
+  },
+  {
+    "name": "bolo",
+    "slug": "bolo",
+    "image": "/hippos/bolo.png",
+    "artist": "https://www.instagram.com/andrewnathanco/",
+    "uuid": "df799c09-9896-423f-9f07-e9930d5c924d"
   }
 ]
