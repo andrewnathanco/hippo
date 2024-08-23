@@ -12,5 +12,12 @@
     "image": "/hippos/bolo.png",
     "artist": "https://www.instagram.com/andrewnathanco/",
     "uuid": "df799c09-9896-423f-9f07-e9930d5c924d"
+  },
+  {
+    "name": "hobbes",
+    "slug": "hobbes",
+    "image": "/hippos/hobbes.png",
+    "artist": "https://www.instagram.com/icky.kisicki/",
+    "uuid": "8dab9ca0-18e5-4d1e-9d40-15c1e32da44d"
   }
 ]

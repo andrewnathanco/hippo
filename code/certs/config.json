@@ -6,8 +6,8 @@
       "10.0.0.42"
     ],
     "hash": {
-      "key": "5b9547dccb61b245c9b52406d7deaa72d57d11a238b7286b7cc786a08d78a020",
-      "cert": "a6467363880f84844b5e31498eb4f40ac220ebb7f87677ce1f5bc2c372e21e61"
+      "key": "9d77c2955ca0f3f168f113ea44382d458f52e51a2f247d0205a875e475d211f7",
+      "cert": "afabca52410aeab93550f4f001ecef5e02f46f669e795ea62a876c3bdad1adc3"
     }
   },
   "configFilePath": "/Users/andrew/Documents/Dev/Projects/andrewnathanco/github/hippo/code/certs/config.json"
